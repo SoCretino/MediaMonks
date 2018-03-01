@@ -1,0 +1,38 @@
+{
+  "name": "MediaMonks",
+  "version": "1.0.0",
+  "description": "MediaMonks BA - Frontend Exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/SoCretino/MediaMonks.git"
+  },
+  "keywords": [
+    "mediamonks",
+    "exam",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "pug",
+    "sass"
+  ],
+  "author": "SoCretino",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "pug": "^2.0.0-rc.4",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

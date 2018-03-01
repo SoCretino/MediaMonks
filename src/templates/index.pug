@@ -1,0 +1,64 @@
+doctype html
+html(lang='en')
+	head
+		title MediaMonks - Frontend Exam // Gonzalo Spota
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+		meta(name="description" content="MediaMonks - Frontend Exam // Gonzalo Spota")
+		link(rel="icon" type="image/x-icon" href="img/favicon.ico")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	body
+		div.bg
+		div.slider-container.top-plus-margin
+			h1 we are breaking<br>our vow<br>of silence
+		div.slider-container.hidden
+			h1 talent is given<br>true skill is<br>earned
+		div.slider-container.hidden
+			h1 be flexible to<br>change and<br>sturdy in<br>conviction
+		div.slider-container.hidden
+			h1 use many skills<br>yet work as one
+		div.slider-container.hidden
+			h1 to master<br>anything find<br>interest in<br>everything
+		div.slider-container.hidden
+			h1 individuals<br>flourish<br>if culture<br>and wisdom<br>are shared
+		div.slider-container.hidden
+			h1 train for<br>perfection but<br>aim for more
+		div.slider-container.hidden
+			h1 take pride in your<br>work but do not<br>seek praise
+		div.slider-container.hidden
+			h1 temporary<br>sacrifice brings<br>lasting results
+		div.slider-container.top-plus-margin.hidden
+			h1 become a monk
+			div.careers
+				h2 Interested in joining our monastery?
+				h2 Check out our current openings on #[a(href="mediamonks.com/careers") mediamonks.com/careers].
+				div.social-media
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					span Mail ons
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					span Facebook
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					span Twitter
+		<i class="arrow arrow-left fa fa-chevron-left hidden" aria-hidden="true" data-nextslide="0"></i>
+		<i class="arrow arrow-right fa fa-chevron-right" aria-hidden="true" data-nextslide="1"></i>
+		div.bottom-bar
+			ul.nav-menu
+				li.nav-item.active-nav-item(data-captionnumber="0") &nbsp;
+				li.nav-item(data-captionnumber="1") 1
+				li.nav-item(data-captionnumber="2") 2
+				li.nav-item(data-captionnumber="3") 3
+				li.nav-item(data-captionnumber="4") 4
+				li.nav-item(data-captionnumber="5") 5
+				li.nav-item(data-captionnumber="6") 6
+				li.nav-item(data-captionnumber="7") 7
+				li.nav-item(data-captionnumber="8") 8
+				li.nav-item(data-captionnumber="9") &nbsp;
+			div.intro-caption
+				span In January 2011, after a decade of digital, we opened the doors to our temple.<br>Follow our noble eightfold path to digital enlightenment here.
+			div.nav-caption
+				span.caption-of.hidden.hide-if-mobile Step #[span.current-caption X] out of 8 on the path to digital enlightenment.
+			div.mediamonks-logo
+				img(src="img/logo_white.svg")
+		script(src='js/bundle.js')
